@@ -19,7 +19,7 @@ export const Toggle = () => {
       <div style={{ textAlign: "justify" }} className="App-header">
         <animated.p style={fade}>
           Desarrolla tus habilidades utilizando <strong> Qgis</strong> para la
-          parte de escritorio y análisis geospacial. Llega hasta el próximo
+          parte de escritorio de análisis geospacial. Llega hasta el próximo
           nivel haciendo uso de{" "}
           <strong>React.js, Redux, Turf.js, Leaflet.js</strong> para crear mapas
           interactivos.
