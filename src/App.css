@@ -118,7 +118,7 @@ h1 {
 }
 .router-nav a {
   color: white;
-  font-size: 2rem;
+  font-size: 1rem;
   font-weight: bold;
   margin: 0 10px;
 }
@@ -191,4 +191,8 @@ h1 {
 
 .full-height {
   height: 100vh;
+}
+
+.menu-links {
+  font-size: 5px;
 }
