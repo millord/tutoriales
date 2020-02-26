@@ -5,9 +5,9 @@ export const Nav = ({ style }) => {
   return (
     <animated.div className="nav-wrapper" style={style}>
       <nav>
-        <a href="#">Home</a>
-        <a href="#">Map</a>
-        <a href="#">Contact</a>
+        <a href="#">Incio</a>
+        <a href="#">Qgis</a>
+        <a href="#">WebMapping</a>
       </nav>
     </animated.div>
   );

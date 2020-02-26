@@ -26,10 +26,11 @@ const App = () => {
       <header className="App-header">
         <img src={logo} className="logo" />
         <button onClick={() => setNavOpen(!isNavOpen)} className="menu-button">
-          Tutoriales
+          Cursos
         </button>
         <Nav style={navAnimation} />
       </header>
+      <Toggle />
     </animated.div>
   );
 };
