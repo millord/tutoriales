@@ -26,7 +26,7 @@ const App = () => {
       <header className="App-header">
         <img src={logo} className="logo" />
         <button onClick={() => setNavOpen(!isNavOpen)} className="menu-button">
-          Menu
+          Tutoriales
         </button>
         <Nav style={navAnimation} />
       </header>
