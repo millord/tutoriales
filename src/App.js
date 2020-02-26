@@ -24,7 +24,12 @@ const App = () => {
   return (
     <animated.div className="App" style={fade}>
       <header className="App-header">
-        <img src={logo} className="logo" />
+        <nav className="navbar navbar-light bg-dark navbar-expand-lg fixed-top">
+          <a href="#" className="navbar-brand">
+            <h1>MapLord</h1>
+          </a>
+        </nav>
+
         <button onClick={() => setNavOpen(!isNavOpen)} className="menu-button">
           Cursos
         </button>

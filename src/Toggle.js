@@ -18,13 +18,11 @@ export const Toggle = () => {
       </Button>
       <div style={{ textAlign: "justify" }} className="App-header">
         <animated.p style={fade}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          Desarrolla tus habilidades utilizando <strong> Qgis</strong> para la
+          parte de escritorio y análisis geospacial. Llega hasta el próximo
+          nivel haciendo uso de{" "}
+          <strong>React.js, Redux, Turf.js, Leaflet</strong> para crear mapas
+          interactivos.
         </animated.p>
       </div>
     </div>
