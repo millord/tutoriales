@@ -1,19 +1,13 @@
 import React from "react";
 import { animated } from "react-spring";
+import { NavLink } from "react-router-dom";
 
 export const Nav = ({ style }) => {
   return (
     <animated.div className="nav-wrapper" style={style}>
       <nav>
-        <a className="menu-links" href="#">
-          Inicio
-        </a>
-        <a className="menu-links" href="#">
-          Qgis
-        </a>
-        <a className="menu-links" href="#">
-          WebMapping
-        </a>
+        <NavLink to="/qgis">Qgis</NavLink>
+        <NavLink to="/web">WebMapping</NavLink>
       </nav>
     </animated.div>
   );
