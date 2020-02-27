@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { useSpring, animated } from "react-spring";
 import { Nav } from "./Nav";
 import { Toggle } from "./Toggle";
-
 const Home = () => {
   const [isNavOpen, setNavOpen] = useState(false);
   const navAnimation = useSpring({
@@ -33,7 +32,9 @@ const Home = () => {
         </button>
         <Nav style={navAnimation} />
       </header>
-      <Toggle />
+      <main>
+        <Toggle />
+      </main>
     </animated.div>
   );
 };

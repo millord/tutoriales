@@ -8,6 +8,7 @@ export const Nav = ({ style }) => {
       <nav>
         <NavLink to="/qgis">Qgis</NavLink>
         <NavLink to="/web">WebMapping</NavLink>
+         <NavLink to="#">D3</NavLink>
       </nav>
     </animated.div>
   );
