@@ -7,7 +7,7 @@ export const Nav = ({ style }) => {
     <animated.div className="nav-wrapper" style={style}>
       <nav>
         <NavLink to="/qgis">Qgis</NavLink>
-        <NavLink to="/arcgis">ArcGis</NavLink>
+        <NavLink to="/arcgis">ArcGis JS api</NavLink>
         <NavLink to="/web">WebMapping</NavLink>
         <NavLink to="#">D3</NavLink>
       </nav>

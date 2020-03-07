@@ -21,7 +21,10 @@ export const Toggle = () => {
           Desarrolla tus habilidades utilizando <strong> Qgis</strong> para la
           parte de escritorio de análisis geospacial. Llega hasta el próximo
           nivel haciendo uso de{" "}
-          <strong>React.js, Redux, Turf.js, Leaflet.js, Google Maps</strong>{" "}
+          <strong>
+            React.js, Redux, Turf.js, Leaflet.js, Google Maps, ArcGIS JavaScript
+            API
+          </strong>{" "}
           para crear mapas interactivos.
         </animated.p>
       </div>
